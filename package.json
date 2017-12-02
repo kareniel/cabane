@@ -1,0 +1,40 @@
+{
+  "name": "cabane",
+  "version": "0.1.0",
+  "description": "static website generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/cabane.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "generator"
+  ],
+  "author": "kareniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/cabane/issues"
+  },
+  "homepage": "https://github.com/kareniel/cabane#readme",
+  "dependencies": {
+    "ansi-escape-sequences": "^4.0.0",
+    "autoprefixer": "^7.1.6",
+    "browserify": "^14.5.0",
+    "budo": "^10.0.4",
+    "connect-slashes": "^1.3.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "postcss": "^6.0.14",
+    "postcss-nested-props": "^2.0.0",
+    "postcss-utilities": "^0.7.0",
+    "precss": "^2.0.0",
+    "pug": "^2.0.0-rc.4",
+    "run-parallel": "^1.1.6",
+    "sugarss": "^1.0.1"
+  }
+}
